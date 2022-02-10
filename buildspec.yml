@@ -10,7 +10,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
-      - export tag=$(docker images --format "{{.Repository}}:{{.Tag}}" |grep user-management)
+      - export tag=$(docker images --format "{{.Repository}}:{{.Tag}}" |grep myapplication)
       - echo | docker images
       - echo $tag
       - docker push $tag

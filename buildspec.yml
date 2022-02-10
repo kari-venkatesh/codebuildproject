@@ -11,4 +11,4 @@ phases:
       - export tag=$(docker images --format "{{.Repository}}:{{.Tag}}" |grep myapplication)
       - echo | docker images
       - echo $tag
-      - docker push $tag
+      - docker push $tag.

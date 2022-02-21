@@ -70,7 +70,7 @@
    * - custom circle thickness (default is 1/14 of the size)
    * - reverse drawing mode
    * - custom animation start value
-   * - usage of "data-" attributes
+   * - usage of "data-" attribute
    */
   $('.fifth.circle').circleProgress({
     value: 0.7
